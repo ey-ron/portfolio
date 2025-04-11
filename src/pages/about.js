@@ -60,7 +60,7 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Aaron</strong>, an Technology Manager and Software Engineer.
+                Hi, I&apos;m <strong>Aaron</strong>, a Technology Manager and Software Engineer.
               </p>
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
