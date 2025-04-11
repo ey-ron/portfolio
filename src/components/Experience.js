@@ -32,7 +32,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm"> {work}</p>
+        <p className="font-medium w-full mt-5 md:text-sm"> {work}</p>
       </motion.div>
     </li>
   );
@@ -62,57 +62,65 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
-              position="Software Engineer"
-              company="Google"
-              companyLink="https://google.com"
-              time="2022-Present"
-              address="Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              position="Vice President"
+              company="United Overseas Bank"
+              companyLink="https://www.uobgroup.com/uobgroup/default.page"
+              time="2023-Present"
+              address="Raffles Place, Singapore"
+              work="Responsible for overseeing the management and execution of multiple projects from ceonception to completion, prioritizing the delivery of high-quality outputs that adhere to project timelimes."
             />
 
             <Details
-              position="Intern"
-              company="Facebook"
-              companyLink="https://facebook.com"
-              time="Summer 2021"
-              address="Menlo Park, CA."
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
+              position="Senior Consultant"
+              company="OCBC"
+              companyLink="https://www.ocbc.com/group/gateway.page"
+              time="2022-2023"
+              address="Tampines, Singapore."
+              work="Consultant for a team responsible for supporting legacy 
+              Trade Finance and SWIFT Alliance bank applications. Developed scripts
+              for enhancing the deployment process across the department."
             />
 
             <Details
-              position="Software Developer"
-              company="Amazon"
-              companyLink="https://amazon.com"
-              time="2020-2021"
-              address="Seattle, WA."
-              work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+              position="Senior Consultant"
+              company="United Overseas Bank"
+              companyLink="https://www.uobgroup.com/uobgroup/default.page"
+              time="2019-2022"
+              address="Raffles Place, Singapore."
+              work="Consultant for a multi-million Trade Transformation Program responsible for building a
+              replacement of a legacy Trade Finance application."
             />
 
             <Details
-              position="Software Developer Intern"
-              company="Microsoft"
-              companyLink="https://microsoft.com"
-              time="Summer 2019"
-              address="Redmond, WA."
+              position="Application Developer"
+              company="United Overseas Bank"
+              companyLink="https://www.uobgroup.com/uobgroup/default.page"
+              time="2018-2019"
+              address="Alexandra Road, Singapore."
               work="Worked on a team responsible for developing new features for
-              Microsoft's Windows operating system, including implementing a new
-              user interface for a system settings panel and optimizing the
-              performance of a core system component."
+              a legacy Trade Finance Application (FITAS)."
             />
 
             <Details
-              position="Teaching Assistant"
-              company="MIT"
-              companyLink="https://mit.edu"
-              time="Fall 2018"
-              address="Massachusetts Ave, Cambridge, MA."
-              work="Assisted in teaching a course on computer programming, held office
-              hours to help students with assignments, and graded exams and
-              assignments."
+              position="Analyst Programmer"
+              company="United Overseas Bank"
+              companyLink="https://www.uobgroup.com/uobgroup/default.page"
+              time="2015-2018"
+              address="Alexandra Road, Singapore."
+              work="Worked on a team responsible for developing new features for
+              a legacy Trade Finance Application (FITAS)."
             />
+
+            <Details
+              position="Software Engineer"
+              company="Accenture"
+              companyLink="https://www.uobgroup.com/uobgroup/default.page"
+              time="2012-2015"
+              address="Eastwood City, Philippines"
+              work="Worked on a team responsible for supporting and developing 
+              change requests, enhancements and projects for Caterpillar client."
+            />
+
           </ul>
         </div>
         </div>
