@@ -15,12 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs</title>
+        <title>Aaron Serrano - Portfolio</title>
         <meta
           name="description"
-          content="Explore CodeBucks's Next.js developer portfolio and 
-        discover the latest webapp projects and software engineering articles. 
-        Showcase your skills as a full-stack developer and software engineer."
+          content=""
         />
       </Head>
 
@@ -33,8 +31,8 @@ export default function Home() {
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
-                alt="CodeBucks"
-                className="h-auto w-full"
+                alt="eyron"
+                className="h-auto w-4/5"
                 sizes="100vw"
                 priority
               />
@@ -52,7 +50,7 @@ export default function Home() {
                   // whileHover={{
                   //   cursor: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='font-size:24px;'><text y='50%'>👆</text></svg>"), auto`,
                   // }}
-                  href="/dummy.pdf"
+                  href="https://drive.google.com/file/d/19I88XUsrDZGH__yUyAZf7JApJX3nG07j/view"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
             capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
@@ -65,7 +63,7 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="mailto:codebucks27@gmail.com"
+                  href="mailto:aaronbserrano@yahoo.com"
                   className="ml-4 text-lg font-medium capitalize text-dark underline 
                   dark:text-light md:text-base"
                 >
@@ -76,7 +74,7 @@ export default function Home() {
           </div>
         </Layout>
 
-        <HireMe />
+        {/* <HireMe /> */}
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image
             className="relative h-auto w-full"

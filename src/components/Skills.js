@@ -25,13 +25,13 @@ const Skills = () => {
   const ref = useRef(null);
   return (
 <>
-      <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32">
+      <h2 className="font-bold text-8xl mt-20 w-full text-center md:text-6xl md:mt-20">
         Skills
       </h2> 
     <div
       ref={ref}
       className="w-full h-[100vh] relative bg-circularLight dark:bg-circularDark  flex items-center justify-center 
-      mb-64 md:mb-32 rounded-full
+      mb-64 md:mb-20 rounded-full
       lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd 
       sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 
       "

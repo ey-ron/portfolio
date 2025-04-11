@@ -92,14 +92,14 @@ const Navbar = () => {
       <nav className="flex items-center justify-center">
         <CustomLink className="mr-4" href="/" title="Home" />
         <CustomLink className="mx-4" href="/about" title="About" />
-        <CustomLink className="mx-4" href="/projects" title="Projects" />
-        <CustomLink className="ml-4" href="/articles" title="Articles" />
+        {/* <CustomLink className="mx-4" href="/projects" title="Projects" />
+        <CustomLink className="ml-4" href="/articles" title="Articles" /> */}
       </nav>
       <nav
         className="flex items-center justify-center flex-wrap lg:mt-2
       "
       >
-        <motion.a
+        {/* <motion.a
           target={"_blank"}
           className="w-6 mr-3"
           href="#"
@@ -118,18 +118,18 @@ const Navbar = () => {
           aria-label="Checkout my github profile"
         >
           <GithubIcon />
-        </motion.a>
+        </motion.a> */}
         <motion.a
           target={"_blank"}
           className="w-6 mx-3"
-          href="#"
+          href="https://www.linkedin.com/in/aaronserrano/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Checkout my linkedin profile"
         >
           <LinkedInIcon />
         </motion.a>
-        <motion.a
+        {/* <motion.a
           target={"_blank"}
           className="w-6 mx-3 bg-light rounded-full"
           href="#"
@@ -148,7 +148,7 @@ const Navbar = () => {
           aria-label="Checkout my dribbble profile"
         >
           <DribbbleIcon />
-        </motion.a>
+        </motion.a> */}
 
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
