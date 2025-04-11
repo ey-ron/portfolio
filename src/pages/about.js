@@ -49,8 +49,8 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion For Technology!"
-            className="mb-16 !text-7xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+            text="Vice President @ UOB Singapore"
+            className="mb-16 !text-7xl !leading-tight lg:!text-4xl sm:!text-3xl xs:!text-2xl sm:mb-8"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -60,7 +60,7 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Aaron</strong>, an IT Manager and former Software Engineer.
+                Hi, I&apos;m <strong>Aaron</strong>, an Technology Manager and Software Engineer.
               </p>
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look

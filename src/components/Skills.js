@@ -25,7 +25,7 @@ const Skills = () => {
   const ref = useRef(null);
   return (
 <>
-      <h2 className="font-bold text-8xl mt-20 w-full text-center md:text-6xl md:mt-20">
+      <h2 className="font-bold text-8xl mt-20 mb-10 w-full text-center md:text-5xl md:mt-10">
         Skills
       </h2> 
     <div
@@ -40,21 +40,16 @@ const Skills = () => {
         <motion.div whileHover={{scale:1.05}} className="cursor-pointer flex rounded-full font-semibold bg-dark text-light p-8 shadow-dark
         dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
         ">
-        Web
+        Project Management
       </motion.div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
-
-          <Skill name="CSS" x="-5vw" y="-10vw" />
-          <Skill name="JavaScript" x="20vw" y="6vw" />
-          <Skill name="ReactJS" x="0vw" y="12vw" />
-          <Skill name="NextJS" x="-20vw" y="-15vw" />
-          <Skill name="GatsbyJS" x="15vw" y="-12vw" />
-          <Skill name="Github" x="-35vw" y="-5vw" />
-          <Skill name="Web Design" x="32vw" y="-5vw" />
-          <Skill name="Figma" x="0vw" y="-20vw" />
-          <Skill name="Firebase" x="-25vw" y="18vw" />
-          <Skill name="Tawilwind CSS" x="28vw" y="18vw" />
+        <Skill name="Vendor Management" x="-20vw" y="12vw" />
+        <Skill name="Application Support" x="-5vw" y="-10vw" />
+        <Skill name="Business Analysis" x="22vw" y="16vw" />
+        <Skill name="System Analysis" x="-23vw" y="-18vw" />
+        <Skill name="Application Developer" x="15vw" y="-24vw" />
+        <Skill name="Web Developer" x="-35vw" y="2vw" />
+        <Skill name="Game Developer" x="32vw" y="-5vw" />
     </div></>
   );
 };
