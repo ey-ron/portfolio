@@ -7,7 +7,7 @@ const Details = ({ type, time, place, info }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]"
+      className="my-8 first:mt-0 last:mb-0 w-[70%] mx-auto flex flex-col items-start justify-between md:w-[80%]"
     >
       <AboutIcon reference={ref} />
       <motion.div
@@ -47,7 +47,7 @@ const Education = () => {
             type="Bachelor of Science in Information Technology"
             time="2006-2010"
             place="Baliuag University, Philippines"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering."
+            info="Relevant Coursework: Software Development, Database Management, Networking, Systems Analysis, Web Technologies."
           />
         </ul>
       </div>

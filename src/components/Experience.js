@@ -76,9 +76,8 @@ const Experience = () => {
               companyLink="https://www.ocbc.com/group/gateway.page"
               time="2022-2023"
               address="Tampines, Singapore."
-              work="Consultant for a team responsible for supporting legacy 
-              Trade Finance and SWIFT Alliance bank applications. Developed scripts
-              for enhancing the deployment process across the department."
+              work="Consultant supporting legacy Trade Finance and SWIFT Alliance banking applications. 
+              Designed and implemented automation scripts to improve deployment efficiency across the department."
             />
 
             <Details
@@ -87,8 +86,8 @@ const Experience = () => {
               companyLink="https://www.uobgroup.com/uobgroup/default.page"
               time="2019-2022"
               address="Raffles Place, Singapore."
-              work="Consultant for a multi-million Trade Transformation Program responsible for building a
-              replacement of a legacy Trade Finance application."
+              work="Contributed to a multi-million-dollar Trade Transformation Program aimed at replacing a 
+              legacy Trade Finance platform, driving modernization and enhanced functionality."
             />
 
             <Details
@@ -97,8 +96,9 @@ const Experience = () => {
               companyLink="https://www.uobgroup.com/uobgroup/default.page"
               time="2018-2019"
               address="Alexandra Road, Singapore."
-              work="Worked on a team responsible for developing new features for
-              a legacy Trade Finance Application (FITAS)."
+              work="Played a key role in the design and development of critical features for FITAS, 
+              a legacy Trade Finance application, 
+              ensuring business continuity and regulatory compliance during transition."
             />
 
             <Details
@@ -117,8 +117,8 @@ const Experience = () => {
               companyLink="https://www.accenture.com/ph-en"
               time="2012-2015"
               address="Eastwood City, Philippines"
-              work="Worked on a team responsible for supporting and developing 
-              change requests, enhancements and projects for Caterpillar client."
+              work="Supported and implemented change requests, enhancements, and strategic projects 
+              for the Caterpillar client, improving operational efficiency and system performance."
             />
 
           </ul>
