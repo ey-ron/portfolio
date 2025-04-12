@@ -24,7 +24,7 @@ export default function Home() {
 
       <TransitionEffect />
       <article
-        className={`flex min-h-screen items-center text-dark dark:text-light sm:items-start md:-mb-40`}
+        className={`flex min-h-auto items-center text-dark dark:text-light sm:items-start`}
       >
         <Layout className="!pt-0 md:!pt-16 sm:!pt-16">
           <div className="flex w-full items-start justify-between md:flex-col">
@@ -32,7 +32,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="eyron"
-                className="h-auto w-4/5"
+                className="h-auto w-4/5 md:w-3/5 md:mb-6 md:mx-16 md:-mt-10"
                 sizes="100vw"
                 priority
               />
@@ -75,13 +75,13 @@ export default function Home() {
         </Layout>
 
         {/* <HireMe /> */}
-        <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
+        {/* <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image
             className="relative h-auto w-full"
             src={lightBulb}
             alt="Codebucks"
           />
-        </div>
+        </div> */}
       </article>
     </>
   );
