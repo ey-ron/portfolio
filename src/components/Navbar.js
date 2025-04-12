@@ -18,7 +18,7 @@ const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
 
   return (
-    <Link href={href} className={`${className}  rounded relative group lg:text-light lg:dark:text-dark`}>
+    <Link href={href} className={`${className}  rounded relative group`}>
       {title}
       <span
         className={`
@@ -74,7 +74,7 @@ const Navbar = () => {
     lg:px-16 relative z-1 md:px-12 sm:px-8
     ">
       
-      <button
+      {/* <button
         type="button"
         className=" flex-col items-center justify-center hidden lg:flex"
         aria-controls="mobile-menu"
@@ -85,9 +85,9 @@ const Navbar = () => {
         <span className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
         <span className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${isOpen ? 'opacity-0' : 'opacity-100'} my-0.5`}></span>
         <span className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
-      </button>
+      </button> */}
 
-      <div className="w-full flex justify-between items-center lg:hidden"
+      <div className="w-full flex justify-between items-center"
       >
       <nav className="flex items-center justify-center">
         <CustomLink className="mr-4" href="/" title="Home" />
@@ -176,8 +176,8 @@ const Navbar = () => {
       animate={{scale:1,opacity:1}}
       >
       <nav className="flex items-center justify-center flex-col">
-        {/* <CustomMobileLink toggle={handleClick} className="mr-4 lg:m-0 lg:my-2" href="/about" title="Home" />
-        <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/about" title="About" /> */}
+        <CustomMobileLink toggle={handleClick} className="mr-4 lg:m-0 lg:my-2" href="/about" title="Home" />
+        <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/about" title="About" />
         {/* <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/projects" title="Projects" />
         <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/articles" title="Articles" /> */}
       </nav>
