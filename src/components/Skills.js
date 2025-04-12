@@ -37,8 +37,8 @@ const Skills = () => {
       sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] md:hidden
       "
     >
-   
-        <motion.div whileHover={{scale:1.05}} className="cursor-pointer flex rounded-full font-semibold bg-dark text-light p-8 shadow-dark
+        <motion.div whileHover={{scale:1.05}} className="cursor-pointer flex rounded-full font-semibold 
+        bg-dark text-light p-8 shadow-dark
         dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
         ">
         Project Management
@@ -54,10 +54,10 @@ const Skills = () => {
     </div>
     <div
       ref={ref}
-      className="w-full h-[100vh] relative bg-circularLight dark:bg-circularDark  flex items-center justify-center 
+      className="hidden md:block w-full h-[100vh] relative bg-circularLight dark:bg-circularDark  md:flex items-center justify-center 
       mb-64 md:mb-20 rounded-full
       lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd 
-      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 4xl:hidden 3xl:hidden 2xl:hidden xl:hidden lg:hidden
+      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]
       "
     >
    

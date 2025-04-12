@@ -114,7 +114,7 @@ const Experience = () => {
             <Details
               position="Software Engineer"
               company="Accenture"
-              companyLink="https://www.uobgroup.com/uobgroup/default.page"
+              companyLink="https://www.accenture.com/ph-en"
               time="2012-2015"
               address="Eastwood City, Philippines"
               work="Worked on a team responsible for supporting and developing 
