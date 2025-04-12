@@ -57,7 +57,7 @@ const Skills = () => {
       className="w-full h-[100vh] relative bg-circularLight dark:bg-circularDark  flex items-center justify-center 
       mb-64 md:mb-20 rounded-full
       lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd 
-      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 2xl:hidden xl:hidden lg:hidden
+      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 4xl:hidden 3xl:hidden 2xl:hidden xl:hidden lg:hidden
       "
     >
    
