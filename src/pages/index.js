@@ -43,7 +43,7 @@ export default function Home() {
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              I'm a Technology Manager passionate about helping organizations align their IT strategies with business goals. I specialize in leading tech teams to deliver efficient, scalable, and innovative solutions that drive success.
+              I'm a Technology Expert passionate about helping organizations align their IT strategies with business goals. I specialize in leading tech teams to deliver efficient, scalable, and innovative solutions that drive success.
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
               To know more about me and my professional journey, click the &apos;Profession&apos; tab above.

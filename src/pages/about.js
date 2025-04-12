@@ -64,10 +64,10 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Aaron</strong>, a Technology Manager and Developer.
+                Hi, I&apos;m <strong>Aaron</strong>, a tech enthusiast with a deep passion for innovation and technology.
               </p>
               <p className="my-4 font-medium">
-                I am a seasoned Technology Manager with a strong passion for helping organizations align 
+                I am a seasoned Technical Manager with a strong passion for helping organizations align 
                 their IT strategies with business objectives. 
                 I specialize in leading and optimizing technology departments to drive operational efficiency and innovation.
               </p>
