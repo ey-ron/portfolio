@@ -32,7 +32,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="eyron"
-                className="h-auto w-4/5 md:w-3/5 md:mb-6 md:mx-16 md:-mt-10"
+                className="h-auto w-4/5 md:w-5/6 md:mb-6 md:mx-6 md:-mt-10 rounded-3xl"
                 sizes="100vw"
                 priority
               />
