@@ -13,7 +13,8 @@ const Skill = ({ name, x, y }) => {
       viewport={{ once: true }}
       className="cursor-pointer w-max origin-center absolute 
        font-semibold bg-dark text-light py-3 px-6 rounded-full dark:bg-light dark:text-dark
-       lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3  xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold
+       lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3  
+       xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold
        "
     >
       {name}
@@ -42,14 +43,13 @@ const Skills = () => {
         ">
         Project Management
       </motion.div>
-
-        <Skill name="Vendor Management" x="-20vw" y="12vw" />
-        <Skill name="Application Support" x="-5vw" y="-10vw" />
-        <Skill name="Business Analysis" x="22vw" y="16vw" />
-        <Skill name="System Analysis" x="-23vw" y="-18vw" />
-        <Skill name="Application Developer" x="15vw" y="-24vw" />
-        <Skill name="Web Developer" x="-35vw" y="2vw" />
-        <Skill name="Game Developer" x="32vw" y="-5vw" />
+        <Skill name="Vendor Management" x="-20vw" y="26vw" />
+        <Skill name="Application Support" x="12vw" y="-14vw" />
+        <Skill name="Business Analysis" x="22vw" y="34vw" />
+        <Skill name="System Analysis" x="-23vw" y="-24vw" />
+        <Skill name="Application Developer" x="15vw" y="-35vw" />
+        <Skill name="Web Developer" x="-35vw" y="8vw" />
+        <Skill name="Game Developer" x="32vw" y="12vw" />
     </div></>
   );
 };

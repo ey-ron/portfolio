@@ -49,8 +49,12 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Vice President @ UOB Singapore"
-            className="mb-16 !text-7xl !leading-tight lg:!text-4xl sm:!text-3xl xs:!text-2xl sm:mb-8"
+            text="Vice President"
+            className="-mb-4 !text-7xl !leading-tight lg:!text-4xl sm:!text-3xl xs:!text-1xl sm:mb-0"
+          />
+          <AnimatedText
+            text="UOB Singapore"
+            className="mb-16 !text-6xl !leading-tight lg:!text-3xl sm:!text-3xl xs:!text-2xl sm:mb-8"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -60,19 +64,26 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Aaron</strong>, a Technology Manager and Software Engineer.
+                Hi, I&apos;m <strong>Aaron</strong>, a Technology Manager and Developer.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                I am a seasoned Technology Manager with a strong passion for helping organizations align 
+                their IT strategies with business objectives. 
+                I specialize in leading and optimizing technology departments to drive operational efficiency and innovation.
               </p>
-              <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+              <p className="my-4 font-medium">
+                With a focus on collaboration and long-term value, I support companies in achieving scalable, secure, 
+                and forward-thinking tech solutions. My approach combines strategic planning, hands-on leadership, 
+                and continuous improvement. I thrive in dynamic environments where technology plays a key role in growth.
+              </p>
+              <p className="my-4 font-medium md:hidden">
+                By leveraging modern tools and methodologies, I guide teams through digital transformation and change management. 
+                I believe in building strong partnerships across departments to ensure alignment and impact. 
+                My goal is to empower organizations to turn technology into a true business enabler.
+              </p>
+              <p className="my-4 font-medium md:hidden">
+              Whether it's streamlining operations or delivering complex IT projects, I bring a results-driven mindset. 
+              Ultimately, I’m committed to helping companies succeed through smart, effective technology leadership.
               </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
@@ -80,9 +91,7 @@ export default function About() {
             xl:col-span-4 md:col-span-8 md:order-1
             ">
               <div
-                className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl 
-                bg-dark
-        dark:bg-light  "
+                className="absolute top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl bg-dark dark:bg-light "
               />
               <Image
                 className="h-auto w-full rounded-2xl"

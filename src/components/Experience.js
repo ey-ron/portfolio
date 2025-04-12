@@ -67,7 +67,7 @@ const Experience = () => {
               companyLink="https://www.uobgroup.com/uobgroup/default.page"
               time="2023-Present"
               address="Raffles Place, Singapore"
-              work="Responsible for overseeing the management and execution of multiple projects from ceonception to completion, prioritizing the delivery of high-quality outputs that adhere to project timelimes."
+              work="Responsible for overseeing the management and execution of multiple projects from conception to completion, prioritizing the delivery of high-quality outputs that adhere to project timelimes."
             />
 
             <Details
