@@ -38,7 +38,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Aaron Serrano - About Me</title>
+        <title>Aaron Serrano - Professional Journey</title>
         {/* <meta name="description" content="Learn more about CodeBucks, a Next.js developer with a passion for 
         creating innovative solutions. Discover tips for building a developer portfolio and insights on 
         full-stack development, front-end development, and back-end development." /> */}
@@ -76,15 +76,15 @@ export default function About() {
                 and forward-thinking tech solutions. My approach combines strategic planning, hands-on leadership, 
                 and continuous improvement. I thrive in dynamic environments where technology plays a key role in growth.
               </p>
-              <p className="my-4 font-medium md:hidden">
+              {/* <p className="my-4 font-medium md:hidden">
                 By leveraging modern tools and methodologies, I guide teams through digital transformation and change management. 
                 I believe in building strong partnerships across departments to ensure alignment and impact. 
                 My goal is to empower organizations to turn technology into a true business enabler.
-              </p>
-              <p className="my-4 font-medium md:hidden">
+              </p> */}
+              {/* <p className="my-4 font-medium md:hidden">
               Whether it's streamlining operations or delivering complex IT projects, I bring a results-driven mindset. 
               Ultimately, I’m committed to helping companies succeed through smart, effective technology leadership.
-              </p>
+              </p> */}
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
             bg-light p-8 dark:border-light dark:bg-dark
@@ -105,15 +105,15 @@ export default function About() {
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
             xl:items-center md:order-3">
-              {/* <div className="flex flex-col items-end justify-center xl:items-center">
+              <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={40} />+
+                  <AnimatedNumberFramerMotion value={70} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  satisfied clients
+                  managed individuals
                 </h2>
-              </div> */}
+              </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">

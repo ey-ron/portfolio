@@ -34,7 +34,7 @@ const Skills = () => {
       className="w-full h-[100vh] relative bg-circularLight dark:bg-circularDark  flex items-center justify-center 
       mb-64 md:mb-20 rounded-full
       lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd 
-      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 
+      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] md:hidden
       "
     >
    
@@ -43,14 +43,40 @@ const Skills = () => {
         ">
         Project Management
       </motion.div>
-        <Skill name="Vendor Management" x="-20vw" y="26vw" />
-        <Skill name="Application Support" x="12vw" y="-14vw" />
-        <Skill name="Business Analysis" x="22vw" y="34vw" />
-        <Skill name="System Analysis" x="-23vw" y="-24vw" />
-        <Skill name="Application Developer" x="15vw" y="-35vw" />
-        <Skill name="Web Developer" x="-35vw" y="8vw" />
-        <Skill name="Game Developer" x="32vw" y="12vw" />
-    </div></>
+        <Skill name="Vendor Management" x="-16vw" y="8vw" />
+        <Skill name="System Analysis" x="16vw" y="-8vw" />
+        <Skill name="Application Support" x="-10vw" y="-11vw" />
+        <Skill name="Application Development" x="12vw" y="10vw" />
+        <Skill name="Business Analysis" x="-27vw" y="-2vw" />
+        <Skill name="Game Development" x="-4vw" y="16vw" />
+        <Skill name="Web Development" x="8vw" y="-20vw" />
+
+    </div>
+    <div
+      ref={ref}
+      className="w-full h-[100vh] relative bg-circularLight dark:bg-circularDark  flex items-center justify-center 
+      mb-64 md:mb-20 rounded-full
+      lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd 
+      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] xlg:hidden
+      "
+    >
+   
+        <motion.div whileHover={{scale:1.05}} className="cursor-pointer flex rounded-full font-semibold bg-dark text-light p-8 shadow-dark
+        dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
+        ">
+        Project Management
+      </motion.div>
+        <Skill name="Vendor Management" x="-16vw" y="10vw" />
+        <Skill name="System Analysis" x="22vw" y="-10vw" />
+        <Skill name="Application Support" x="-10vw" y="-20vw" />
+        <Skill name="Application Development" x="18vw" y="18vw" />
+        <Skill name="Business Analysis" x="-30vw" y="-10vw" />
+        <Skill name="Game Development" x="-4vw" y="26vw" />
+        <Skill name="Web Development" x="18vw" y="-28vw" />
+
+    </div>
+    
+    </>
   );
 };
 

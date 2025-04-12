@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Aaron Serrano - Portfolio</title>
+        <title>Aaron Serrano - Personal Page</title>
         <meta
           name="description"
           content=""
@@ -46,7 +46,7 @@ export default function Home() {
               I'm a Technology Manager passionate about helping organizations align their IT strategies with business goals. I specialize in leading tech teams to deliver efficient, scalable, and innovative solutions that drive success.
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              To know more about me and my professional journey, click the &apos;Experience&apos; tab above.
+              To know more about me and my professional journey, click the &apos;Profession&apos; tab above.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
