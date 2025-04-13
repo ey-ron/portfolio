@@ -49,12 +49,12 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Vice President"
+            text="A strategist in the"
             className="-mb-4 !text-7xl !leading-tight lg:!text-4xl sm:!text-3xl xs:!text-1xl sm:mb-0"
           />
           <AnimatedText
-            text="UOB Singapore"
-            className="mb-16 !text-6xl !leading-tight lg:!text-3xl sm:!text-3xl xs:!text-2xl sm:mb-8"
+            text="shell of a coder."
+            className="mb-16 !text-7xl !leading-tight lg:!text-4xl sm:!text-3xl xs:!text-1xl sm:mb-8"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
