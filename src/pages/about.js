@@ -81,10 +81,10 @@ export default function About() {
                 I believe in building strong partnerships across departments to ensure alignment and impact. 
                 My goal is to empower organizations to turn technology into a true business enabler.
               </p> */}
-              {/* <p className="my-4 font-medium md:hidden">
+              <p className="my-4 font-medium">
               Whether it's streamlining operations or delivering complex IT projects, I bring a results-driven mindset. 
               Ultimately, I’m committed to helping companies succeed through smart, effective technology leadership.
-              </p> */}
+              </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
             bg-light p-8 dark:border-light dark:bg-dark
