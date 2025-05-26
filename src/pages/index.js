@@ -53,7 +53,7 @@ export default function Home() {
                   // whileHover={{
                   //   cursor: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='font-size:24px;'><text y='50%'>👆</text></svg>"), auto`,
                   // }}
-                  href="https://drive.google.com/file/d/19I88XUsrDZGH__yUyAZf7JApJX3nG07j/view"
+                  href="https://drive.google.com/uc?export=view&id=1rX-Ptw5iemC7isI2jg8QIc_s8vkjrOFc"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
             capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
